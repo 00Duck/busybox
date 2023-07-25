@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # Minimum kernel build requirements (minus mcelog since it was taken out of Debian)
-# sudo apt install -y gcc make bash binutils libelf-dev flex bison pahole util-linux kmod e2fsprogs jfsutils reiserfsprogs xfsprogs squashfs-tools btrfs-progs pcmciautils quota ppp nfs-common procps udev grub-common iptables openssl bc python3-sphinx cpio
+sudo apt install -y gcc make bash binutils libelf-dev flex bison pahole util-linux kmod e2fsprogs jfsutils reiserfsprogs xfsprogs squashfs-tools btrfs-progs pcmciautils quota ppp nfs-common procps udev grub-common iptables openssl bc python3-sphinx cpio
 
 KERNEL_VERSION=6.1.1
 BUSYBOX_VERSION=1.36.0
