@@ -1,0 +1,6 @@
+bzImage
+*.img
+src/*
+
+initrd/init
+initrd/bin/*
